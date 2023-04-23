@@ -1,0 +1,10 @@
+╭─dayan at pop-os in ~/testing/fabric-ca-demo 23-04-23 - 22:40:48
+╰─○ fabric-ca-client enroll -u https://admin:adminpw@localhost:7054 --caname ca-org1 --tls.certfiles ${PWD}/organizations/fabric-ca/org1/tls-cert.pem
+
+2023/04/23 22:41:05 [INFO] TLS Enabled
+2023/04/23 22:41:05 [INFO] generating key: &{A:ecdsa S:256}
+2023/04/23 22:41:05 [INFO] encoded CSR
+2023/04/23 22:41:05 [INFO] Stored client certificate at /home/dayan/.fabric-ca-client/msp/signcerts/cert.pem
+2023/04/23 22:41:05 [INFO] Stored root CA certificate at /home/dayan/.fabric-ca-client/msp/cacerts/localhost-7054-ca-org1.pem
+2023/04/23 22:41:05 [INFO] Stored Issuer public key at /home/dayan/.fabric-ca-client/msp/IssuerPublicKey
+2023/04/23 22:41:05 [INFO] Stored Issuer revocation public key at /home/dayan/.fabric-ca-client/msp/IssuerRevocationPublicKey
